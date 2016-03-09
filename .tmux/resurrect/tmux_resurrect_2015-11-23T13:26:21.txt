@@ -1,0 +1,28 @@
+pane	0	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	10	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	12	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	13	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	14	0	:bash	1	:*	0	:/Users/aaron/ots/web-league-scorestrip	1	bash	:
+pane	3	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	5	0	:vi-core & vi-admin	0	: 	0	:/Users/aaron/ots/vi-core	1	node	:gulp  
+pane	5	0	:vi-core & vi-admin	0	: 	1	:/Users/aaron/ots/vi-core	0	bash	:
+pane	5	0	:vi-core & vi-admin	0	: 	2	:/Users/aaron/ots/vi-admin	0	node	:gulp  
+pane	5	0	:vi-core & vi-admin	0	: 	3	:/Users/aaron/ots/vi-admin	0	bash	:
+pane	5	1	:vi-admin-server	0	:-	0	:/Users/aaron/ots/vi-admin-server	0	node	:node /usr/local/bin/nodemon app.js
+pane	5	1	:vi-admin-server	0	:-	1	:/Users/aaron/ots/vi-admin-server	1	bash	:
+pane	5	2	:web-strip-simple	1	:*	0	:/Users/aaron/ots/web-league-scorestrip	0	node	:node /usr/local/bin/nodemon ./server/server.js
+pane	5	2	:web-strip-simple	1	:*	1	:/Users/aaron/ots/web-league-scorestrip	1	bash	:
+pane	6	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	8	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+window	0	0	1	:*	a54e,170x118,0,0,1
+window	10	0	1	:*	a54f,170x118,0,0,2
+window	12	0	1	:*	a550,170x118,0,0,3
+window	13	0	1	:*	a551,170x118,0,0,4
+window	14	0	1	:*	a552,170x118,0,0,5
+window	3	0	1	:*	a553,170x118,0,0,6
+window	5	0	0	: 	7be5,204x55,0,0{102x55,0,0[102x29,0,0,7,102x25,0,30,8],101x55,103,0[101x29,103,0,9,101x25,103,30,10]}
+window	5	1	0	:-	4c42,204x55,0,0[204x10,0,0,11,204x44,0,11,12]
+window	5	2	1	:*	b145,204x55,0,0[204x25,0,0,13,204x29,0,26,14]
+window	6	0	1	:*	52dc,170x118,0,0,15
+window	8	0	1	:*	52dd,170x118,0,0,16
+state	5	3

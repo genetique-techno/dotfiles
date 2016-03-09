@@ -1,0 +1,6 @@
+pane	0	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	2	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	2	0	:bash	1	:*	1	:/Users/aaron	0	nano	:nano
+window	0	0	1	:*	a54d,170x118,0,0,0
+window	2	0	1	:*	4686,170x118,0,0[170x59,0,0,5,170x58,0,60,6]
+state	2	

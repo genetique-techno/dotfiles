@@ -1,0 +1,5 @@
+#!/bin/bash -f
+
+for _pane in $(tmux list-panes -F '#P'); do
+  tmux send-keys -t ${_pane} "$@"
+done

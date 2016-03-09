@@ -1,0 +1,8 @@
+pane	0	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	6	0	:bash	1	:*	0	:/Users/aaron/ots/vi-core	0	node	:gulp  
+pane	6	0	:bash	1	:*	1	:/Users/aaron/ots/vi-core	1	bash	:
+pane	6	0	:bash	1	:*	2	:/Users/aaron/ots/vi-admin	0	node	:gulp  
+pane	6	0	:bash	1	:*	3	:/Users/aaron/ots/vi-admin	0	bash	:
+window	0	0	1	:*	a54d,170x118,0,0,0
+window	6	0	1	:*	d030,170x118,0,0{85x118,0,0[85x59,0,0,1,85x58,0,60,2],84x118,86,0[84x59,86,0,3,84x58,86,60,4]}
+state	6	0

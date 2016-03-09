@@ -1,0 +1,28 @@
+pane	0	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	10	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	12	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	13	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	14	0	:bash	1	:*	0	:/Users/aaron/ots/web-strip-simple	1	bash	:
+pane	3	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	5	0	:visual-insights	0	: 	0	:/Users/aaron/ots/vi-core	0	node	:gulp  
+pane	5	0	:visual-insights	0	: 	1	:/Users/aaron/ots/vi-core	0	bash	:
+pane	5	0	:visual-insights	0	: 	2	:/Users/aaron/ots/vi-admin	1	node	:gulp  
+pane	5	0	:visual-insights	0	: 	3	:/Users/aaron/ots/vi-admin	0	bash	:
+pane	5	1	:web-strip-simple	0	:-	0	:/Users/aaron/ots/vi-admin-server	1	node	:node /usr/local/bin/nodemon app.js
+pane	5	1	:web-strip-simple	0	:-	1	:/Users/aaron/ots/vi-admin-server	0	bash	:
+pane	5	2	:bash	1	:*	0	:/Users/aaron/ots/web-strip-simple	0	node	:node /usr/local/bin/nodemon ./server/server.js
+pane	5	2	:bash	1	:*	1	:/Users/aaron/ots/web-strip-simple	1	bash	:
+pane	6	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+pane	8	0	:bash	1	:*	0	:/Users/aaron	1	bash	:
+window	0	0	1	:*	a54d,170x118,0,0,0
+window	10	0	1	:*	d2dc,170x118,0,0,25
+window	12	0	1	:*	52d8,170x118,0,0,30
+window	13	0	1	:*	52d9,170x118,0,0,31
+window	14	0	1	:*	50da,170x117,0,0,32
+window	3	0	1	:*	a554,170x118,0,0,7
+window	5	0	0	: 	3e54,170x118,0,0{85x118,0,0[85x61,0,0,26,85x56,0,62,27],84x118,86,0[84x61,86,0,28,84x56,86,62,29]}
+window	5	1	0	:-	a5ca,170x118,0,0[170x60,0,0,33,170x57,0,61,37]
+window	5	2	1	:*	674d,170x118,0,0[170x59,0,0,39,170x58,0,60,40]
+window	6	0	1	:*	52db,170x118,0,0,14
+window	8	0	1	:*	d2d7,170x118,0,0,20
+state	5	3

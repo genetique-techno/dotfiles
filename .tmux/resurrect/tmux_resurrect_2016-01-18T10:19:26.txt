@@ -1,0 +1,5 @@
+pane	0	0	:bash	1	:*	0	:/Users/aaron/ots/web-nascar	0	node	:gulp    
+pane	0	0	:bash	1	:*	1	:/Users/aaron/ots/web-nascar	1	bash	:
+pane	0	0	:bash	1	:*	2	:/Users/aaron/ots/web-nascar	0	node	:node /usr/local/bin/nodemon server/index.js
+window	0	0	1	:*	8dbf,170x118,0,0{85x118,0,0[85x59,0,0,0,85x58,0,60,3],84x118,86,0,2}
+state	0	
