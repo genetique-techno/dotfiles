@@ -23,6 +23,8 @@ npm config set registry https://registry.npmjs.org/
 ## set up onetwosee npm registry
 npm login --registry=http://npm.onetwosee.xyz --scope=@onetwosee
 
+## install some global npm modules
+npm install webpack webpack-dev-server gulp nodemon -g
 
 ## Non shell related
 
