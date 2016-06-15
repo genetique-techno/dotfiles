@@ -39,3 +39,9 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 
 ## fix pbcopy and subl in tmux
 brew install reattach-to-user-namespace
+
+## copy dotfiles into home directory
+cp -r ./ ~
+cd ~
+rm MACBOOK_SETUP.md
+
