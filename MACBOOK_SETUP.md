@@ -1,4 +1,6 @@
 ## install xcode through App Store
+## agree to xcode license
+sudo xcodebuild -license
 
 ## install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
