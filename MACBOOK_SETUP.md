@@ -53,9 +53,3 @@ brew install mongodb
 cp -r ./ ~
 cd ~
 rm MACBOOK_SETUP.md
-
-## re-enable Zero Dark Matrix theme in chrome
-`chrome://flags/#enable-devtools-experiments`
-enable developer tools experiments
-in dev tools settings find experiments, check allow custom UI themes
-restart dev tools
