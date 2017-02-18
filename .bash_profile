@@ -2,6 +2,7 @@
 PATH=/usr/local/bin:$PATH
 PATH=$HOME/bin:$PATH
 PATH=/usr/local/lib/node_modules/grunt:$PATH
+PATH="$PATH:/Users/atodd203/n/bin/node:/Users/atodd203/n/bin/eslint"
 export PATH
 
 # Load the shell dotfiles, and then some:

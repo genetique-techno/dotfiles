@@ -1,12 +1,12 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/aaron/.oh-my-zsh
+export ZSH=/Users/atodd203/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 # Use SublimeText for editing config files
 alias zshconfig="subl ~/.zshrc"
 # alias envconfig="subl ~/Projects/config/env.sh"
@@ -59,7 +59,11 @@ plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew
 
 # User configuration
 
-export PATH="$PATH:/Users/aaron/.rvm/gems/ruby-2.2.1/bin:/Users/aaron/.rvm/gems/ruby-2.2.1@global/bin:/Users/aaron/.rvm/rubies/ruby-2.2.1/bin:/usr/local/share/npm/bin:/usr/local/share/python:/Users/aaron/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/aaron/.rvm/bin:/Users/aaron/.rvm/bin"
+PATH="$PATH:/Users/atodd203/.rvm/gems/ruby-2.2.1/bin:/Users/atodd203/.rvm/gems/ruby-2.2.1@global/bin:/Users/atodd203/.rvm/rubies/ruby-2.2.1/bin:/usr/local/share/npm/bin:/usr/local/share/python:/Users/atodd203/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/atodd203/.rvm/bin:/Users/atodd203/.rvm/bin"
+PATH="$PATH:/Users/atodd203/n/bin/eslint"
+PATH="$PATH:/Users/atodd203/n/bin/node"
+export PATH
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -90,3 +94,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export EDITOR='subl -w'
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).

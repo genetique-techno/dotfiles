@@ -1,0 +1,6 @@
+[user]
+	email = atodd@onetwosee.com
+	name = Aaron Todd
+[core]
+	excludesfile = ~/.gitignore_global
+	excludesfiles = ~/.gitignore_global
