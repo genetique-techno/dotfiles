@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/aaron/epoxyai/recommendation-api/.github'
+let g:netrw_dirhist_6='/Users/aaron/.aws/sso'
+let g:netrw_dirhist_5='/Users/aaron/.aws/credentials;C'
+let g:netrw_dirhist_4='/Users/aaron/epoxyai/epoxy-client-services-api/stack'
+let g:netrw_dirhist_3='/Users/aaron/epoxyai/epoxy-client-services-api/cdk.out'
+let g:netrw_dirhist_2='/Users/aaron/daily/.git'
+let g:netrw_dirhist_1='/Users/atodd203/mer/journey'
