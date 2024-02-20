@@ -124,21 +124,5 @@ f() {
 export FFF_FAV1=~/
 export FFF_FAV2=~/epoxyai/
 
-export GITHUB_TOKEN=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
 export NPM_TOKEN=$(echo $GITHUB_TOKEN)
 
-# Grafana server ssh
-alias ssh_grafana='ssh -i ~/epoxyai/grafana-server.pem ubuntu@ec2-34-214-51-119.us-west-2.compute.amazonaws.com'
-
-# Bastion server shortcuts
-alias bastion_docdb='ssh -i ~/epoxyai/docdb-bastion-server.cer -L 27018:mongo.cluster-cqtzu956x36b.us-west-2.docdb.amazonaws.com:27017 ec2-user@44.232.157.51 -N'
-alias bastion_redis='ssh -i ~/epoxyai/docdb-bastion-server.cer -L 6380:epoxyai-elasticache-dev-rediscluster.fs5uxj.0001.usw2.cache.amazonaws.com:6379 ec2-user@44.232.157.51 -N'
-alias bastion_bfapi='ssh -i ~/epoxyai/docdb-bastion-server.cer -L 9001:08zuipgsec.execute-api.us-west-2.amazonaws.com:443 ec2-user@44.232.157.51 -N'
-alias bastion_redisstack='ssh -i ~/epoxyai/docdb-bastion-server.cer -L 6382:nlb-epoxy-us-west-2-02c05abb04618238.elb.us-west-2.amazonaws.com:6379 ec2-user@44.232.157.51 -N'
-alias bastion_redisstack_staging='ssh -i ~/epoxyai/docdb-bastion-server.cer -L 6383:nlb-epoxy-us-west-2-02c05abb04618238.elb.us-west-2.amazonaws.com:6279 ec2-user@44.232.157.51 -N'
-
-# Redis shortcuts
-alias redis_ingest='redis-cli -p 6380'
-alias redis_redisstack='redis-cli -p 6382'
-alias redis_redisstack_staging='redis-cli -p 6383'
-alias redis_cluster_dev='aws ssm start-session --profile data --target i-07491b740f395ab8e'
