@@ -2,8 +2,6 @@
 set nocompatible
 
 
-" Pathogen
-execute pathogen#infect()
 syntax on
 " filetype plugin indent on
 
@@ -14,7 +12,6 @@ if ! has("gui_running")
 endif
 		" feel free to choose :set background=light for a different style
 set background=dark
-colors peaksea
 
 set nowrap        " don't wrap lines
 set tabstop=2     " a tab is four spaces
